@@ -1,3 +1,49 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.diet-main {
+    display: flex;
+    padding: 2%;
+}
+
+.diet-font {
+    width: 40%;
+    padding-top: 8%;
+    text-align: left;
+    padding-left: 3%;
+}
+
+.diet-font span {
+    color: orange;
+}
+
+.diet-font p {
+    padding-bottom: 20px;
+}
+
+.diet-font a {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 6px 8px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 5px 2px 30px 10px orange;
+    border-radius: 5px;
+}
+
+.diet-font h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.diet-img {
+    width: 60%;
+}
+
+.diet-img img {
+    width: 80%;
+    padding-left: 20%;
+    padding-top: 0;
 }
