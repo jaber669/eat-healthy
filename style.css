@@ -3,6 +3,7 @@ body {
     margin: 0;
 }
 
+/* Diet-section-start */
 .diet-main {
     display: flex;
     padding: 2%;
@@ -10,7 +11,7 @@ body {
 
 .diet-font {
     width: 40%;
-    padding-top: 8%;
+    padding-top: 5%;
     text-align: left;
     padding-left: 3%;
 }
@@ -39,7 +40,7 @@ body {
 }
 
 .diet-img {
-    width: 60%;
+    width: 58%;
 }
 
 .diet-img img {
@@ -47,3 +48,95 @@ body {
     padding-left: 20%;
     padding-top: 0;
 }
+
+/* Diet-section-End */
+
+/* About-section-start */
+.about-main {
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+}
+
+.about-box {
+    display: flex;
+    padding: 5%;
+}
+
+.about-img img {
+    width: 70%;
+    padding-left: 160px;
+    padding-top: 32px;
+
+}
+
+.about-img {
+    width: 40%;
+}
+
+.about-font {
+    width: 40%;
+    margin-left: 10%;
+    padding-top: 70px;
+    padding-left: 3%;
+}
+
+.about-font h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.about-button {
+    padding-top: 100%;
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 6px 8px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 5px 2px 30px 10px orange;
+    border-radius: 5px;
+}
+
+/* About-section-End */
+
+/* Recipies-section-start */
+.recipie-head {
+    text-align: center;
+    width: 50%;
+    padding-left: 25%;
+}
+
+.recipie-box {
+    padding: 5%;
+    display: flex;
+}
+
+.recipie-head h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.recipie-cover {
+    box-shadow: 5px 10px 40px rgb(255, 231, 209);
+    margin: 10px;
+    border-radius: 5%;
+}
+
+#recipie-img {
+    width: 90%;
+    height: 58%;
+    padding: 5% 5% 0%;
+}
+
+.recipie-title {
+    width: 90%;
+    height: 50px;
+    padding-left: 5%;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.recipie-title p {
+    margin: 0;
+}
+
+/* Recipies-section-End */
