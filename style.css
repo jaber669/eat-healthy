@@ -116,7 +116,7 @@ body {
 }
 
 .recipie-cover {
-    box-shadow: 5px 10px 40px rgb(255, 231, 209);
+    box-shadow: 5px 10px 40px rgb(255, 201, 151);
     margin: 10px;
     border-radius: 5%;
 }
@@ -140,3 +140,44 @@ body {
 }
 
 /* Recipies-section-End */
+
+/* followers-section-start */
+.followers-box {
+    width: 90%;
+    height: 150px;
+    display: flex;
+    box-shadow: 5px 10px 40px rgb(255, 201, 151);
+    margin-left: 5%;
+    margin-bottom: 120px;
+    border-radius: 20px;
+}
+
+.followers-item {
+    padding-left: 15%;
+}
+
+.followers-item h1 {
+    font-size: xx-large;
+}
+
+/* followers-section-End */
+
+.footer-color {
+    width: 100%;
+    height: 180px;
+    background-color: black;
+}
+
+.footer-item span {
+    color: orange;
+}
+
+.footer-item h1 {
+    color: gray;
+}
+
+.footer-item {
+    color: white;
+    padding-top: 15px;
+    text-align: center;
+}
